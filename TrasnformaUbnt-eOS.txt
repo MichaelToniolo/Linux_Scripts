@@ -1,0 +1,43 @@
+EOS 
+
+Antes mesmo de fazer o primeiro login vá para o modo texto
+
+sudo -i
+
+Monte a Raiz para leitura e escrita.
+
+mount -w -o remount /
+
+Remover Gnome alterado ubuntu
+
+apt remove --purge ubuntu-desktop* gnome-* gdm3*
+
+Remover SNAP *lixo
+
+
+snap remove --purge firefox
+sudo snap remove --purge snap-store
+sudo snap remove --purge gnome-3-38-2004 
+snap remove gtk-common-themes 
+snap remove snapd-desktop-integration
+snap remove bare
+snap remove core20
+snap remove snapd
+apt remove --autoremove snapd
+
+apt autoremove
+
+
+Adicionando recurso para permitir ppas
+apt install software-properties-common
+Repositórios eOS
+add-apt-repository ppa:elementary-os/stable
+add-apt-repository ppa:elementary-os/os-patches
+add-apt-repository ppa:elementary-os/daily
+
+
+Instalando
+
+apt install --no-install-recommends elementary-desktop lightdm xinit gnome-software-plugin-flatpak flatpak  gparted gnome-disk-utility git file-roller unzip p7zip unrar ifuse transmission-common elementary-desktop 
+
+shutdown -r now
