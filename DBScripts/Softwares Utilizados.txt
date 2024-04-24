@@ -1,0 +1,21 @@
+Softwares Utilizados
+
+- Software de Diagnóstico
+ 	- CPU-Z - Especificações, Stress de Máquina, Informações Detalhadas
+ 	- AIDA64 - Gerar Stress, Relatório completo da Máquina
+ 	- Advanced File Recovery, Recuva, Recoverit
+ 	- Gerenciador de Tarefas (Windows e Linux)
+ 	- Otimizador de Disco
+ 	- Winmemory
+ 	- Comandos CHKDSK e SCANNOW
+- Software de melhoria de Desempenho
+	- CCleaner
+	- PC Check
+	- Gerenciador de Memória
+	- msconfig
+	- Limpar Dados Temporários %temp%
+	- Drivereasy/Drivermax
+- Software de remoção de ameaças
+	- Malwarebytes
+	- AdwCleaner
+	- Kaspersky Trial

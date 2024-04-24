@@ -8,5 +8,3 @@ Observação
 Verificar se o input está com o número identificador correto.
 
 
-https://unix.stackexchange.com/questions/265617/what-is-the-equivalent-of-xset-led-3
-
