@@ -16,3 +16,4 @@ echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com
 sudo zypper ref
 sudo zypper in code
 
+flatpak permission-set screenshot screenshot flameshot yes && flatpak permission-set screenshot screenshot org.flameshot.Flameshot yes
