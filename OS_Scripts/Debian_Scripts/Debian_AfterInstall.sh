@@ -3,6 +3,7 @@
 sudo apt update
 sudo sudo apt install flatpak whois nmap thunderbird gnome-software-plugin-flatpak -y
 sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+sudo apt install python3-launchpadlib -y
 
 sudo apt purge gnome-games -y
 sudo remove openvpn -y
