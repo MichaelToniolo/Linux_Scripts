@@ -13,15 +13,13 @@ sudo flatpak install io.github.shiftey.Desktop -y
 sudo flatpak install com.mattjakeman.ExtensionManager -y
 sudo flatpak install org.telegram.desktop -y
 sudo flatpak install com.github.donadigo.appeditor -y
+flatpak permission-set screenshot screenshot flameshot yes
+
+flatpak permission-set screenshot screenshot org.flameshot.Flameshot yes
 
 cd ~/Downloads
 wget https://launchpad.net/ubuntu/+source/openvpn/2.5.5-1ubuntu3/+build/23491549/+files/openvpn_2.5.5-1ubuntu3_amd64.deb && sudo dpkg -i openvpn_2.5.5-1ubuntu3_amd64.deb
-sudo apt-mark hold openvpn -y
+sudo apt-mark hold openvpn
 sudo apt install network-manager-openvpn-gnome -y
-
-cd ~/Downloads
-sudo wget https://cfhcable.dl.sourceforge.net/project/xampp/XAMPP%20Linux/8.2.12/xampp-linux-x64-8.2.12-0-installer.run?viasf=1 && mv xampp-linux-x64-8.2.12-0-installer.run\?viasf\=1 xampp-linux-x64-8.2.12-0-installer.run && sudo mv sudo chmod +x xampp-linux-x64-8.2.12-0-installer.run && sudo ./xampp-linux-x64-8.2.12-0-installer.run
-
-
 
 
