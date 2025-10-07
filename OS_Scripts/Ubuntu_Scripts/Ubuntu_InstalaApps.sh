@@ -1,7 +1,7 @@
 #!/bin/sh
 
 
-sudo apt install gnome-tweaks gnome-software-plugin-flatpak nmap whois flatpak -y
+sudo apt install gnome-tweaks gnome-software-plugin-flatpak nmap whois flatpak virtualbox -y
 sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 sudo apt remove openvpn -y
 
