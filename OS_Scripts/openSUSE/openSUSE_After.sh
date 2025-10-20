@@ -1,7 +1,7 @@
 #!/bin/sh
 
 
-sudo zypper in whois nmap gnome-calendar opi touchegg
+sudo zypper in whois nmap gnome-calendar opi
 
 sudo flatpak install flameshot -y
 sudo flatpak install spotify -y
